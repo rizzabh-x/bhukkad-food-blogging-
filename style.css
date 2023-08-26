@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #78a37b;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    height: 105px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+#logo{
+    margin: 14px 12px;
+}
+
+#logo img{
+    margin: 10px 24px;
+    height: 70px;
+    width: 75px;
+    border-radius: 100px;
+}
+
+#logo img:hover{
+    box-shadow: 10px 10px 35px #634f2a;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 10px 10px 35px #634f2a;
+}
+
+.btn{
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 10px 9px;
+    padding: 7px 20px;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 10px 10px 35px #634f2a;
+}
+
+#btn-1{
+    position: absolute;
+    right: 189px;
+}
+
+#btn-2{
+    position: absolute;
+    right: 75px;
+    background-color: #ef5353;
+}
+
+#btn-2:hover{
+    color: black;
+    background-color: white;
+}
+
+.hero-section{
+    display: flex;
+}
+
+.content{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 80px;
+    margin: 37px 90px;
+    padding: 12px 23px;
+    color: bisque;
+}
+
+#want{
+    margin: 1px 10px;
+}
+
+#truck{
+    font-weight: 700;
+    margin: 1px 9px;
+    color: beige;
+}
+
+#btn-3{
+    background-color: #ef5353;
+    margin: 1px 250px;
+}
+
+#btn-3:hover{
+    color: black;
+    background-color: white;
+}
+
+#food-img{
+    margin: 43px 22px;
+}
+
+#food-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#getiton{
+    height: 125px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#app{
+    height: 108px;
+    width: 110px;
+    margin: 13px 6px;
+}
+
+#play{
+    height: 134px;
+    width: 120px;
+    
+}
+
+#food-img:hover{
+    box-shadow: 10px 10px 35px #634f2a;
+}
